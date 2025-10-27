@@ -27,6 +27,7 @@ import BioMedicalTrading from "./pages/user/BioMedicalTrading";
 import RecyclingDivision from "./pages/user/RecyclingDivision";
 import AgroAndDairyProducts from "./pages/user/AgroAndDairyProducts";
 import Services from "./pages/user/Service";
+import ScrollToTop from "./components/ScrollToTop";
 
 // --- START: SiteLoader Component ---
 // In a real project, put this in ./components/SiteLoader.jsx
@@ -66,7 +67,9 @@ function App() {
     // --- Show App Content once loading is complete ---
     return (
         <div className="app-container"> {/* Added class for potential global styling */}
+        <ScrollToTop/>
             <UserNavBar />
+            
             
             <Routes>
                 {/* User Pages */}
