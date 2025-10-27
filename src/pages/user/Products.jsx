@@ -184,32 +184,7 @@ const Products = () => {
         </div>
       </div>
 
-      {/* 🔹 Contact Card Section */}
-      <div className=" py-20 px-6 md:px-16 text-white">
-        <div className="max-w-3xl mx-auto text-center">
-          <motion.div
-            whileHover={{ scale: 1.02 }}
-            className="bg-gradient-to-br from-[#1C1C28] to-[#11111A] border border-orange-500/30 rounded-3xl shadow-lg p-10"
-          >
-            <h2 className="text-2xl md:text-3xl font-semibold mb-6 text-orange-400">
-              For Inquiries, Please Contact
-            </h2>
-
-            <div className="space-y-4 text-gray-300">
-              <p className="flex items-center justify-center gap-2">
-                <MapPin className="w-5 h-5 text-orange-400" />
-                Showroom #29 & 31, Building No:5, Barwa Village, Wakrah
-              </p>
-              <p className="flex items-center justify-center gap-2">
-                <Phone className="w-5 h-5 text-orange-400" /> +974 5591 7717
-              </p>
-              <p className="flex items-center justify-center gap-2">
-                <Mail className="w-5 h-5 text-orange-400" /> pvc@zeal-it.co
-              </p>
-            </div>
-          </motion.div>
-        </div>
-      </div>
+   
     </section>
   );
 };
