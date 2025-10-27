@@ -54,13 +54,18 @@ const UserNavBar = () => {
     <nav className={navbarClasses}>
       <div className="max-w-[1200px] mx-auto flex items-center justify-between h-[60px] px-4">
         {/* Logo */}
-        <div className="flex items-center space-x-2">
-          <img
-            src="/logo.png"
-            alt="Zeal-it Logo"
-            className="h-8 w-auto object-contain"
-          />
-        </div>
+       
+
+<div className="flex items-center space-x-2">
+  <Link to="/" className="flex items-center space-x-2">
+    <img
+      src="/logo.png"
+      alt="Zeal-it Logo"
+      className="h-8 w-auto object-contain"
+    />
+  </Link>
+</div>
+
 
         {/* Desktop Menu */}
         <ul className="hidden md:flex items-center space-x-10">
