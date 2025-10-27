@@ -1,11 +1,11 @@
 import { useState, useEffect } from "react";
 // import "./App.css"; // Assuming you might use Tailwind or other CSS here
-import Login from "./pages/register-login/Login";
+// import Login from "./pages/register-login/Login";
 import Home from "./pages/user/Home";
 import { Route, Routes } from "react-router-dom";
-import Register from "./pages/register-login/Register";
-import UserProtectedRoute from "./components/protected-route/UserProtectedRoute";
-import AdminProtectedRoute from "./components/protected-route/AdminProtectedRoute";
+// import Register from "./pages/register-login/Register";
+// import UserProtectedRoute from "./components/protected-route/UserProtectedRoute";
+// import AdminProtectedRoute from "./components/protected-route/AdminProtectedRoute";
 
 
 // import "bootstrap/dist/css/bootstrap.min.css";
